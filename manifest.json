@@ -10,14 +10,8 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://github.com/*", "https://gist.github.com/*"],
+      "matches": ["https://git.empdev.domo.com/*"],
       "css": ["wide-github.css"]
-    }
-  ],
-  "licenses": [
-    {
-      "type": "MIT License",
-      "url": "https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE"
     }
   ]
 }
